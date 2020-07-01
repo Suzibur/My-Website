@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section .halfWidth{
+    width: 40%;
+    float:left;
+    margin-top: 100px;
+    /*I used  margin-top, because background-image taking bigger space then body*/
+}
+section .myself{
+    margin-top: 170px;
+}
+section .halfWidth h3{
+    font-size: 28px;
+}
+section .halfWidth h1{
+    color: tomato;
+    font-size: 40px;
+}
+section .halfWidth p{
+    font-size: 22px;
+}
+section .halfWidth a{
+    font-size: 22px;
+   color: white;
+   border-radius: 3px;
+   text-decoration: none;
+   padding: 10px 30px;
+   background-image: linear-gradient(45deg,lightsalmon,tomato);
+}
+section .halfWidth a:hover{
+   background: tomato;
+}
+section .halfWidth img{
+    width: 100%;
+}
+
+#introduceArea{
+    height: 700px;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#introduceArea .halfWidth{
+    margin-left: 5%;
+    padding-left: 5%;
+}
+#biography{
+    height: 600px;
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#biography .halfWidth{
+    margin-left: 5%;
+}
+#latestWork{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latestWork .workBox{
+    width: 27%;
+    margin: 3%;
+    float: left;
+}
+#latestWork{
+    height: 500px;
+    background-image: url('img/latest-work-bg.png');
+}
+#latestWork p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:tomato;
+}
+#latestWork .workBox img{  
+    width: 100%;
+    cursor: pointer;
+}
+#clientReview{
+    height: 700px;
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+}
+#clientReview .client{
+    width: 15%;
+    float: left;
+    margin-left: 5%;
+    padding: 0 80px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-top: 10px solid rgb(253, 150, 129);
+    box-shadow: 10px 10px 40px gray;
+}
+#clientReview .client:hover{
+    background-color: rgb(253, 150, 129);
+}
+#clientReview p{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: tomato;
+}
+.client h2,h4,h5{
+    text-align: center;
+}
+.client p{
+    font-size: 16px;
+}
+.client img{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 100%;
+}
+.contact{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.contact p{
+    cursor: pointer;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+.contact .email{
+    font-size: 36px;
+}
+footer h6{
+    text-align: center;
+}
