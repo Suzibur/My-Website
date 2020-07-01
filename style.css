@@ -94,9 +94,6 @@ section .halfWidth img{
     border-top: 10px solid rgb(253, 150, 129);
     box-shadow: 10px 10px 40px gray;
 }
-#clientReview .client:hover{
-    background-color: rgb(253, 150, 129);
-}
 #clientReview p{
     font-size: 40px;
     text-align: center;
